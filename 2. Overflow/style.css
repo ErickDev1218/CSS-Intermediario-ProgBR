@@ -1,0 +1,10 @@
+.container{
+    width: 300px;
+    height: 200px;
+    background-color: blue;
+
+    overflow: auto;
+}
+
+/*Muita das vezes nosso conteúdo ultrapassa o tamanho do seu elemento agrupador (nesse caso a DIV), para podermos ajustar isso, devemos utilizar o atributo 'overflow:' no elemento agrupador.*/
+

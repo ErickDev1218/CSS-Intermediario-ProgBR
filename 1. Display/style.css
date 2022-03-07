@@ -1,0 +1,9 @@
+/*Nesta aula vamos entender como funciona as principais modalidades do atributo 'display'
+
+O 'display: block', ele é um bloco, normalmente indo do inicio ao fim da página. Quando eu termino qualquer elemento do tipo 'block' o próximo elemento vai para a próxima linha. Exemplos disso são elementos do tipo 'p' e 'div'.
+
+O 'display:inline', como o nome já sugere, ele é um elemento que se mantém na mesma linha, diferente do display block, que 'joga' o próximo elemento para uma outra linha. Exemplos disso são elementos do tipo 'span' e 'img'.
+
+No display block eu consigo colocar uma largura e altura especifica, já no display inline eu não consigo. A menos que eu transforme esse display que está como 'inline' para 'inline-block', assim, dessa forma, o elemento pode ser alterado de tamanho livremente.
+
+O ideal é que, na construção do seu código, seja evitado usar elementos que sejam do tipo block dentro de elementos do tipo block, para que seja evitado quebras de fluxos.*/
