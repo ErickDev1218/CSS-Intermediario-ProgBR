@@ -1,0 +1,29 @@
+.quadro{
+    border: 1px solid black;
+    width: 500px;
+    height: 400px;
+}
+
+.quadrado{
+    width: 100px;
+    height: 100px;
+}
+
+.quadrado-red{
+    background-color: red;
+}
+
+.quadrado-blue{
+    background-color: blue;
+    position: relative;
+    top: 20px;
+    left: 20px;
+}
+
+.quadrado-green{
+    background-color: green;
+}
+
+/*Para entendermos sobre Static e Relative, é necessário primeiro entender o que é o natural do elemento. Neste caso, vemos que é um quadrado abaixo do outro dentro de sua linha porque, em seu estado natural, ele tem o 'display:block'. Este é justamente o 'position:static', o static é o natural do elemento, como ele se comportaria normalmente.
+
+O relative já parte da ideia de que é relativo ao static. Mas quando colocado como 'position:relative', me permite alterar sua posição. Assim, surge a dúvida de 'qual a diferença entre o relative e o margin?', pois bem, o se eu introduzir um margin-top de qualquer valor no quadrado azul, além de empurrar o elemento azul, eu também empurraria o elemento verde, pois o margin age como se eu introduzisse alguma lá. Já o relative, me permite uso do 'top,right,bottom e left' sem alterar a posição de nenhum outro elemento na tela.*/

@@ -1,0 +1,28 @@
+.quadro{
+    border: 1px solid black;
+    width: 500px;
+    height: 2000px;
+}
+
+.quadrado{
+    width: 100px;
+    height: 100px;
+}
+
+.quadrado-red{
+    background-color: red;
+}
+
+.quadrado-blue{
+    background-color: blue;
+    position: fixed;
+    bottom: 10%;
+    right: 5%;
+
+}
+
+.quadrado-green{
+    background-color: green;
+}
+
+/*A 'position:fixed' funciona bem, parecido com o 'absolute', mas dessa vez, a referência será sempre o viewport, ou seja, o monitor. Então se usar o atributo fixando algum elemento em um lugar especifico da tela, por mais que eu role a página para baixo, aquele elemento sempre estará naquele lugar.*/

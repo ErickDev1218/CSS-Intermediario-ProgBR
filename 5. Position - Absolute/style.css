@@ -1,0 +1,31 @@
+.quadro{
+    border: 1px solid black;
+    position: relative;
+    width: 500px;
+    height: 400px;
+}
+
+.quadrado{
+    width: 100px;
+    height: 100px;
+}
+
+.quadrado-red{
+    background-color: red;
+}
+
+.quadrado-blue{
+    background-color: blue;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+
+}
+
+.quadrado-green{
+    background-color: green;
+}
+
+/*Diferente da 'position:relative' o 'absolute' não é relativo a sua forma natural, é como se o elemento nem estivesse ali. Ele tem uma referência ao seu elemento pai DESDE QUE esse elemento pai nao tenha 'position:static' definido ou por padrão. Portanto, me permite utilizar de uma maneira mais forte o posicionamento do meu elemento na tela.
+
+Caso eu coloque a posicao do meu QUADRO como 'relative', o quadrado azul passará a tê-lo como elemento pai e será referenciado por ele, independente do seu tamanho. Portanto, eu posso colocar, por exemplo, 'bottom:0;' e ele sempre estará lá em baixo independente da altura do meu quadro.*/

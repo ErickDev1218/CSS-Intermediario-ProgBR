@@ -1,0 +1,30 @@
+.quadro{
+    border: 1px solid black;
+    width: 500px;
+    height: 2000px;
+}
+
+.quadrado{
+    width: 100px;
+    height: 100px;
+}
+
+.quadrado-red{
+    background-color: red;
+    width: 100%;
+    height: 30px;
+    position: sticky;
+    top: 0;
+}
+
+.quadrado-blue{
+    background-color: blue;
+}
+
+.quadrado-green{
+    background-color: green;
+}
+
+/*O atributo 'position:sticky' é o 'grudento'. Ele funcionará de forma similar ao 'fixed', mas a rolagem de página nele trabalha de uma forma diferente.
+
+Caso eu coloque o meu quadrado vermelho com 'position:sticky; top:0px;', ele manterá todos os elementos como já estão na tela, mas quando a rolagem iniciar e meu elemento chegar aos 0px no top, ele se tornará fixo e toda a página passará 'por baixo' dele*/
