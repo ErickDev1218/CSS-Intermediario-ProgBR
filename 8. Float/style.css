@@ -1,0 +1,36 @@
+/*O atributo 'float' é o atributo 'voador', muito usado para colocar imagens junto de textos na web. Nele existe possibilidades como 'left e right' e da essa sensação de que o texto abraça a imagem. Um atributo usado para retirar o float, é o 'clear', que removerá o float do local.*/
+
+img{
+    float:right;
+    margin: 10px;
+    overflow: auto;
+}
+
+p{
+    text-indent: 30px;
+    text-align: justify;
+    margin: 10px;
+    margin-top: 0;
+    line-height: 20px;
+    /*clear: right;*/
+}
+
+/*Existe também uma forma de criar um menu usando float, segue exemplo.*/
+
+ul{
+    list-style: none;
+}
+
+li{
+    float: left;
+    padding: 10px;
+    background-color: lightskyblue;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+li:hover{
+    background-color: black;
+    color: lightskyblue;
+    transition-duration: 0.5s;
+}

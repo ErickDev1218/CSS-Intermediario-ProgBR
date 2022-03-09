@@ -1,0 +1,24 @@
+.container{
+    background-color: blue;
+    width: 80%;
+    height: 200px;
+    margin: auto;
+    position:relative
+}
+
+.content{
+    text-align: center;
+    background-color: white;
+    width: 80%;
+    height: 20%;/*height com % só pode ser usado após ter um elemento pai com sua altura já definida.*/
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    /* font-size: 5vw; */
+}
+
+/*Responsividade está totalmente ligado as medidas que são aplicadas nos atributos, medidas como px, pi,cm e etc são muito 'fixas' e acabam não sendo tão responsivas assim.
+Por isso, normalmente é usado o %. O % sempre precisará de uma referência e essa referência normalmente é baseada no viewport, ou seja, quando eu digo que um elemento tera um width de 80%, ele terá 80% do viewport, variando de viewport para viewport.
+
+Outra unidade de medida que está totalmente ligado a responsividade é o 'vw'.*/

@@ -1,0 +1,42 @@
+.card{
+    width: 300px;
+    height: 200px;
+    border: 2px solid black;
+    float: left;
+    position: relative;
+    margin: 10px;
+}
+
+/*Há várias formas de posicionar um elemento em um determinado local de forma vertical. Nesta aula, estudaremos algumas delas.*/
+
+/*A primeira maneira que vamos ver é a forma mais básica e fácil de fazer. Apesar da facilidade, tende a ser a mais 'fragil'.*/
+
+.c1{
+    line-height: 200px;
+    text-align: center;
+}
+
+/*O problema desse metodo é que se meu espaço for modificado pelo motivo que seja, o meu elemento pode não ficar mais centralizado.*/
+
+
+/*A outra forma é utilizando o atributo 'transform: translate()' junto de todo aquele conhecimento de position. Nesse atributo devemos imaginar quase uma função matemática, com o eixo X e o eixo Y.*/
+
+.c2{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);/*Os valores dentro deste elemento podem variar entre negativos e positivos.*/
+}
+
+
+
+/*A ultima forma não tão usual também é fazendo a partir do padding, que já foi estudado.*/
+
+.c3{
+    clear: left;
+    float: left;
+    border: 2px solid black;
+    padding: 100px 100px;
+}
+
+/*O problema desse metodo é entender as dimensões, pois o ponto de partida sempre será o elemento centralizado.*/
